@@ -7,6 +7,7 @@ func main() {
 	// result := IsPalindromeString("A man, a plan, a canal - Panama!")
 	// result := RomanToInteger("XCVIII")
 	// result := IsValidParenthesis("({[)]})")
-	result := RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4})
+	// result := RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4})
+	result := RemoveElement([]int{0, 1, 2, 2, 3, 0, 4, 2}, 2)
 	fmt.Println(result)
 }
