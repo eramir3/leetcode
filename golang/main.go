@@ -8,6 +8,7 @@ func main() {
 	// result := RomanToInteger("XCVIII")
 	// result := IsValidParenthesis("({[)]})")
 	// result := RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4})
-	result := RemoveElement([]int{0, 1, 2, 2, 3, 0, 4, 2}, 2)
+	// result := RemoveElement([]int{0, 1, 2, 2, 3, 0, 4, 2}, 2)
+	result := SearchInsert([]int{1, 3, 5, 6}, 2) // Change second para to 5,7 and the answer should be 1,4 respectively
 	fmt.Println(result)
 }
