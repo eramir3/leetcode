@@ -11,6 +11,7 @@ func main() {
 	// result := RemoveElement([]int{0, 1, 2, 2, 3, 0, 4, 2}, 2)
 	// result := SearchInsert([]int{1, 3, 5, 6}, 2) // Change second para to 5,7 and the answer should be 1,4 respectively
 	// result := LengthOfLastWord("   fly me   to   the moon  ")
-	result := SingleNumber([]int{4, 1, 2, 1, 2})
+	// result := SingleNumber([]int{4, 1, 2, 1, 2})
+	result := Merge([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3)
 	fmt.Println(result)
 }
